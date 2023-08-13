@@ -27,4 +27,4 @@ jobs:
         npm install express
         npm install express-ejs-layouts
         npm install node-fetch
-        node app
+        npm run serve
