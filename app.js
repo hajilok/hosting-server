@@ -3,7 +3,7 @@ const expressEjsLayouts = require('express-ejs-layouts');
 const expresslayout = require('express-ejs-layouts')
 const { contact, cekip } = require('./utils/contact')
 const app = express()
-const port = 3000;
+const port = 8080;
 
 app.set('view engine', 'ejs');
 app.use(expresslayout);
