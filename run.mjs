@@ -34,4 +34,4 @@ server.use('/', (req, res) => {
 
 server.listen(3000, () => {
   console.log('testnet is ready')
-}
+});
